@@ -16,7 +16,7 @@ public class WordUtil {
     // 初始化配置
     private Configuration configuration;
     // 模板文件目录(doc模板ftl文件，docx模板xml文件都放在此目录)
-    private String templateDir = "F:\\freemarker\\template\\";
+    private String templateDir = "E:\\freemarker\\template\\";
 
 
     public WordUtil() {
