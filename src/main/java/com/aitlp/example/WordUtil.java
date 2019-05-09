@@ -31,6 +31,13 @@ public class WordUtil {
         }
     }
 
+    /**
+     * 生成doc文件
+     *
+     * @param ftlFileName 模板ftl文件的名称
+     * @param params      动态传入的数据参数
+     * @param outFilePath 生成的最终doc文件的保存完整路径
+     */
     public void ftlToDoc(String ftlFileName, Map params, String outFilePath) {
         try {
             /** 加载模板文件 **/
