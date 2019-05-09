@@ -1,0 +1,44 @@
+/target/
+.project
+.classpath
+.settings
+.metadata
+#ignore maven file
+#filter databfile、sln file
+*.mdb  
+*.ldb  
+*.sln    
+#class file
+*.com  
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so  
+# Package Files #
+*.jar
+*.war
+*.ear
+# compression file
+*.7z  
+*.dmg  
+*.gz  
+*.iso  
+*.jar  
+*.rar  
+*.tar  
+*.zip  
+*.via
+*.tmp
+*.err 
+# OS generated files #  
+.DS_Store  
+.DS_Store?  
+._*  
+.Spotlight-V100  
+.Trashes  
+Icon?  
+ehthumbs.db  
+Thumbs.db
+.idea
+*.iml
