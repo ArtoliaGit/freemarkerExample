@@ -64,7 +64,7 @@ public class WordUtil {
      * @param docxXmlTemplate docx的模板xml文件名称
      * @param tempDocxXmlPath docx的临时xml文件(docx的模板xml文件填充完数据生成的临时文件)
      * @param params          填充到docx的临时xml文件中的数据
-     * @param toFilePath      最终输出的docx文件路径
+     * @param toFilePath      最终输出的docx文
      */
     public void xmlToDocx(String docxTemplate, String docxXmlTemplate, String tempDocxXmlPath, Map params, String toFilePath) {
         try {
